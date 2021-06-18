@@ -18,7 +18,6 @@ public class KFS_MetricToEnglish_Main
         double mile = meters * conversion_mile_meter; //user's number, which is in meters, will be converted to miles
         System.out.println(mile + " " + "miles");
         
-        
         double foot = meters * conversion_foot_meter; //user's number, which is in meters, will be converted to feet
         System.out.println(foot + " " + "feet");
         
