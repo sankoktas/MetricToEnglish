@@ -3,10 +3,8 @@ This program prompts the user for a measurement in meters and then converts to m
 
 import java.util.Scanner;
 public class KFS_MetricToEnglish_Main
-
 {
     public static void main(String [] args)
-    
     {
         Scanner in = new Scanner(System.in);
         
@@ -27,5 +25,4 @@ public class KFS_MetricToEnglish_Main
         double inch = meters * conversion_inch_meter;  //user's number, which is in meters, will be converted to inches
         System.out.println(inch + " " + "inches");
     }
-    
 }
